@@ -183,6 +183,17 @@ section h2 span {
     margin-right: 370px;
 }
 
+.posters {
+    width: 200px;
+    height: auto;
+}
+
+.favs_display {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+}
+
 footer a {
     font-family: 'ITCKabelStd-Demi', sans-serif;
     color: black;
