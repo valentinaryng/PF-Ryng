@@ -38,7 +38,7 @@ dd {
 }
 
 header nav ul{
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Redaction', sans-serif;
     font-weight: 900;
     list-style-type: none;
     display: flex;
@@ -167,7 +167,8 @@ section h2 span {
 .fanzine_display {
     display: grid;
     grid-template-columns: 500px 500px;
-    grid-template-areas: "title title" "img img";
+    grid-template-areas:
+    "title title" "img img";
     grid-gap: 100px;
     justify-content: center;
 }
@@ -191,7 +192,65 @@ section h2 span {
 .favs_display {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px auto auto auto auto auto auto;
+    grid-template-areas: "title title title title"
+    "subt1 subt1 subt1 subt1"
+    "poster1 poster1 poster1 poster1"
+    "subt2 subt2 subt2 subt2"
+    "poster2 poster2 poster2 poster2"
+    "subt3 subt3 subt3 subt3"
+    "poster3 poster3 poster3 poster3";
+    grid-gap: 20px;
     justify-content: center;
+}
+
+.favs_title {
+    grid-area: title;
+}
+
+.favs_gif {
+    grid-area: title;
+    margin-left: 250px;
+}
+
+.favs_gif_2 {
+    grid-area: title;
+    justify-self: end;
+    margin-right: 250px;
+}
+
+.h2_pelis {
+    grid-area: subt1;
+}
+
+.div_pelis {
+    grid-area: poster1;
+    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.h2_comics {
+    grid-area: subt2;
+    justify-self: end;
+}
+
+.div_comics {
+    grid-area: poster2;
+    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.h2_musica {
+    grid-area: subt3;
+}
+
+.div_musica {
+    grid-area: poster3;
+    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 footer a {
