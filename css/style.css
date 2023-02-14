@@ -51,7 +51,7 @@ header nav ul li a{
     padding: 15px;
 }
 
-section h1 {
+div h1 {
     font-size: 3rem;
     display: flex;
     flex-direction: row;
@@ -59,19 +59,19 @@ section h1 {
     font-family: 'WonderType', sans-serif;
 }
 
-section h2 {
+div h2 {
     font-family: 'Redaction', sans-serif;
     font-size: 2rem;
     color: white;
 }
 
-section p {
+div p {
     font-family: 'Arimo', sans-serif;
     background-color: white;
     color: black;
 }
 
-section h2 span {
+div h2 span {
     background-color: black;
 }
 
@@ -125,35 +125,7 @@ section h2 span {
     padding: 10px;
 }
 
-.img_dibujos {
-    width: 500px;
-    height: auto;
-}
 
-.art_display {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-areas: "title title" "img img" "img img";
-    grid-gap: 100px;
-    justify-content: center;
-}
-
-.art_display_title {
-    grid-area: title;
-}
-
-.gif_dibujos_title {
-    grid-area: title;
-    height: 70px;
-    margin-left: 400px;
-}
-
-.gif_dibujos_title_2 {
-    grid-area: title;
-    height: 70px;
-    justify-self: end;
-    margin-right: 400px;
-}
 
 .fanzine_cover {
     width: 500px;
