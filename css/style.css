@@ -57,6 +57,7 @@ div h1 {
     flex-direction: row;
     justify-content: center;
     font-family: 'WonderType', sans-serif;
+    font-weight: bold;
 }
 
 div h2 {
@@ -125,35 +126,12 @@ div h2 span {
     padding: 10px;
 }
 
-
-
-.fanzine_cover {
-    width: 500px;
-    height: auto;
+.col-md-4 {
+    max-width: 100px;
 }
 
-.fanzine_title {
-    grid-area: title;
-}
-
-.fanzine_display {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-areas:
-    "title title" "img img";
-    grid-gap: 100px;
-    justify-content: center;
-}
-
-.fanzine_gif {
-    grid-area: title;
-    margin-left: 370px;
-}
-
-.fanzine_gif_2 {
-    grid-area: title;
-    justify-self: end;
-    margin-right: 370px;
+.col-md-6 {
+    max-width: 500px;
 }
 
 .posters {
