@@ -97,19 +97,6 @@ div h2 span {
     background-color: #000;
 }
 
-.gif_title {
-    height: 70px;
-    grid-area: title;
-    margin-left: 150px;
-}
-
-.gif_title_2 {
-    height: 70px;
-    grid-area: title;
-    justify-self: end;
-    margin-right: 150px;
-}
-
 .img_index {
     max-width: 100%;
     height: 100%;
@@ -124,6 +111,19 @@ div h2 span {
 
 .info div {
     padding: 10px;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .col-md-6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .col-md-6{
+        width: 100%;
+    }
 }
 
 .col-md-4 {
@@ -156,17 +156,6 @@ div h2 span {
 
 .favs_title {
     grid-area: title;
-}
-
-.favs_gif {
-    grid-area: title;
-    margin-left: 250px;
-}
-
-.favs_gif_2 {
-    grid-area: title;
-    justify-self: end;
-    margin-right: 250px;
 }
 
 .h2_pelis {
