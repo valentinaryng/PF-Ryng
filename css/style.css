@@ -120,9 +120,20 @@ div h2 span {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 300px) and (max-width: 991.98px) {
     .col-md-6{
         width: 100%;
+    }
+}
+
+@media only screen and (max-width:475px){
+    nav{
+        padding: 0.5rem 2rem;
+    }
+    .navitems{
+        flex-flow: column nowrap;
+        display: flex;
+        align-items: center;
     }
 }
 
