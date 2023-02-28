@@ -76,6 +76,10 @@ div h2 span {
     background-color: black;
 }
 
+nav {
+    padding-top: 15px;
+}
+
 .text_index {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -201,6 +205,20 @@ div h2 span {
     grid-gap: 20px;
     display: flex;
     flex-direction: row;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #000000; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+label {
+    font-family: 'Redaction', sans-serif;
 }
 
 footer a {
