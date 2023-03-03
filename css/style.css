@@ -142,69 +142,15 @@ nav {
 }
 
 .col-md-4 {
-    max-width: 100px;
+    max-width: 250px;
 }
 
 .col-md-6 {
     max-width: 500px;
 }
 
-.posters {
-    width: 200px;
-    height: auto;
-}
-
-.favs_display {
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 100px auto auto auto auto auto auto;
-    grid-template-areas: "title title title title"
-    "subt1 subt1 subt1 subt1"
-    "poster1 poster1 poster1 poster1"
-    "subt2 subt2 subt2 subt2"
-    "poster2 poster2 poster2 poster2"
-    "subt3 subt3 subt3 subt3"
-    "poster3 poster3 poster3 poster3";
-    grid-gap: 20px;
-    justify-content: center;
-}
-
-.favs_title {
-    grid-area: title;
-}
-
-.h2_pelis {
-    grid-area: subt1;
-}
-
-.div_pelis {
-    grid-area: poster1;
-    grid-gap: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.h2_comics {
-    grid-area: subt2;
-    justify-self: end;
-}
-
-.div_comics {
-    grid-area: poster2;
-    grid-gap: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.h2_musica {
-    grid-area: subt3;
-}
-
-.div_musica {
-    grid-area: poster3;
-    grid-gap: 20px;
-    display: flex;
-    flex-direction: row;
+.col-md-1 {
+    padding: 15px;
 }
 
 input[type=text], select, textarea {
