@@ -96,9 +96,9 @@ nav {
 }
 
 .text_index_title {
-    color: #fff;
+    color: white;
     grid-area: title;
-    background-color: #000;
+    background-color: black;
 }
 
 .img_index {
@@ -156,7 +156,7 @@ nav {
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
-    border: 1px solid #000000; 
+    border: 1px solid black; 
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
