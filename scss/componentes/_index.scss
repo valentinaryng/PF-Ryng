@@ -1,8 +1,3 @@
-$font-family_1: 'Redaction', sans-serif;
-$font-family_2: 'WonderType', sans-serif;
-$font-family_3: 'Arimo', sans-serif;
-$font-family_4: 'ITCKabelStd-Demi', sans-serif;
-
 @font-face {
 	font-family: 'WonderType';
 	src: url('https://dl.dropboxusercontent.com/s/rb843g1ul51ikkg/wondertype-regular-webfont.woff') format('woff');
@@ -61,7 +56,7 @@ dd {
 header {
 	nav {
 		ul {
-			font-family: $font-family_1;
+			font-family: $font-subtitulos;
 			font-weight: 900;
 			list-style-type: none;
 			@extend %centrado;
@@ -78,11 +73,11 @@ div {
 	h1 {
 		font-size: 3rem;
 		@extend %centrado;
-		font-family: $font-family_2;
+		font-family: $font-titulos;
 		font-weight: bold;
 	}
 	h2 {
-		font-family: $font-family_1;
+		font-family: $font-subtitulos;
 		font-size: 2rem;
 		color: $color_w;
 		span {
@@ -90,7 +85,7 @@ div {
 		}
 	}
 	p {
-		font-family: $font-family_3;
+		font-family: $font-texto;
 		background-color: $color_b;
 		color: $color_b;
 	}
@@ -164,11 +159,11 @@ textarea {
 	resize: vertical;
 }
 label {
-	font-family: $font-family_1;
+	font-family: $font-subtitulos;
 }
 footer {
 	a {
-		font-family: $font-family_4;
+		font-family: $font-footer;
 		color: $color_b;
 		@extend %centrado;
 		margin: 30px;
@@ -193,5 +188,9 @@ footer {
 		flex-flow: column nowrap;
 		display: flex;
 		align-items: center;
+	}
+	.text_index {
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
