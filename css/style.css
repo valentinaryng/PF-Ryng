@@ -139,6 +139,11 @@ nav {
         display: flex;
         align-items: center;
     }
+    .text_index{
+        min-height: 750px;
+        max-width: 300px;
+        min-width: 350px;
+    }
 }
 
 .col-md-4 {
